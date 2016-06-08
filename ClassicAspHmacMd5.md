@@ -2,7 +2,7 @@
 ##Code
 <pre>
 <code>
-'''
+
 <!-- #include file = "hex_md5_js.asp" -->
 <%
     Dim strPassWord, strHash
@@ -12,7 +12,7 @@
     Response.Write("<p><b>strPassWord:</b> " & strPassWord & "</p>")
     Response.Write("<p><b>strHash:</b> " & strHash & "</p>")
 %>
-'''
+
 </code>
 </pre>
 
