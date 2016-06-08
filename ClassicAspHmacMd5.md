@@ -14,7 +14,7 @@
 #hex_md5_js.asp
 ##Code
 
-'''
+```
 <script language="javascript" type="text/javascript" runat="server">
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
@@ -273,5 +273,5 @@ function binl2b64(binarray)
   return str;
 }
 </script>
-'''
+```
 
