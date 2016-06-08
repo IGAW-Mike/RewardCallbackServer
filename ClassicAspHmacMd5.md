@@ -1,6 +1,6 @@
 #Example:
 ##Code
-```
+```asp
 <!-- #include file = "hex_md5_js.asp" -->
 <%
     Dim strPassWord, strHash
@@ -14,7 +14,7 @@
 #hex_md5_js.asp
 ##Code
 
-```
+```javascript
 <script language="javascript" type="text/javascript" runat="server">
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
