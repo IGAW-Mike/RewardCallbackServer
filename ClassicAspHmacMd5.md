@@ -1,6 +1,6 @@
 #Example:
 ##Code
-<pre>
+'''asp
 <!-- #include file = "hex_md5_js.asp" -->
 <%
     Dim strPassWord, strHash
@@ -9,11 +9,12 @@
     Response.Write("<p>strPassWord: " & strPassWord & "</p>")
     Response.Write("<p>strHash: " & strHash & "</p>")
 %>
-</pre>
+'''
 
 #hex_md5_js.asp
 ##Code
 <pre>
+'''javascript
 <script language="javascript" type="text/javascript" runat="server">
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
@@ -272,4 +273,5 @@ function binl2b64(binarray)
   return str;
 }
 </script>
+'''
 </pre>
