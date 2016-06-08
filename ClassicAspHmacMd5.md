@@ -3,10 +3,10 @@
 ```asp
 <!-- #include file = "hex_md5_js.asp" -->
 <%
-    Dim strPassWord, strHash
-    strPassWord = "abc"
-    strHash = hex_md5(strPassWord)
-    Response.Write("<p>strPassWord: " & strPassWord & "</p>")
+    Dim strPlainText, strHash
+    strPlainText = "abc"
+    strHash = core_hmac_md5(strPlainText)
+    Response.Write("<p>strPlainText: " & strPlainText & "</p>")
     Response.Write("<p>strHash: " & strHash & "</p>")
 %>
 ```
