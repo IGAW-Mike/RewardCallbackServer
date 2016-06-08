@@ -1,5 +1,4 @@
 ###Example:
-####Code
 ```asp
 <!-- #include file = "hex_md5_js.asp" -->
 <%
@@ -11,12 +10,10 @@
 %>
 ```
 
-
+--------------------
 
 
 ###hex_md5_js.asp
-####Code
-
 ```javascript
 <script language="javascript" type="text/javascript" runat="server">
 /*
