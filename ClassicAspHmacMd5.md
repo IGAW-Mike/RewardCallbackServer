@@ -1,25 +1,19 @@
 #Example:
 ##Code
 <pre>
-<code>
-
 <!-- #include file = "hex_md5_js.asp" -->
 <%
     Dim strPassWord, strHash
     strPassWord = "abc"
     strHash = hex_md5(strPassWord)
-
-    Response.Write("<p><b>strPassWord:</b> " & strPassWord & "</p>")
-    Response.Write("<p><b>strHash:</b> " & strHash & "</p>")
+    Response.Write("<p>strPassWord: " & strPassWord & "</p>")
+    Response.Write("<p>strHash: " & strHash & "</p>")
 %>
-
-</code>
 </pre>
 
 #hex_md5_js.asp
 ##Code
 <pre>
-<code>
 <script language="javascript" type="text/javascript" runat="server">
 /*
  * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message
@@ -278,5 +272,4 @@ function binl2b64(binarray)
   return str;
 }
 </script>
-</code>
 </pre>
